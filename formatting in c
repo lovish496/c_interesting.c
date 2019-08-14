@@ -1,0 +1,7 @@
+//WAP to input date in ddmmyyyy form and print it indd-mm-yyyy format.
+main()
+{ int d,m,y;
+printf("Enter date in ddmmyyyy format");
+scanf("%2d%2d%4d",&d,&m,&y);
+printf("date is %d-%d-%d",d,m,y); // or printf("date is %02d-%02d-%04d",d,m,y);
+}
